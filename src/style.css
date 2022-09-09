@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+html, body {
+  background-color: #000;
+  height: 100%;
+}
+
+.l-debug {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #FFF;
+  font-size: 12px;
+  display: none;
+}
+
+.l-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.l-height {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+}
+
+.l-info {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+}
+.l-info span {
+  display: block;
+}
+.l-info a {
+  font-size: 12px;
+  color: inherit;
+}
+
+@media screen and (max-width:900px) {
+  .l-info {
+    margin: 10px;
+  }
+}
